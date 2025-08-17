@@ -6,14 +6,12 @@ abstract class Animal {
         System.out.println("All animals breathe oxygen 🌬️");
     }
 }
-
 class Dog extends Animal {
     @Override
      void makeSound() {
         System.out.println("Dog barks 🐶");
     }
 }
-
 class Cat extends Animal {
     @Override
     void makeSound() {
